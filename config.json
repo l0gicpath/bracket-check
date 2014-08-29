@@ -48,22 +48,6 @@
                 check: ["Tools:Brackets:Check"]
             }
         },
-        python: {
-            commands: {
-                "Tools:Brackets:Check": {
-                    scriptUrl: "./check.js",
-                    internal: true,
-                    inputs: {
-                        text: true
-                    },
-                    brackets: ["()", "{}", "[]"],
-                    skip: [["\"\"\"", "\"\"\""], ["'", "'"], ["\"", "\""], ["#", "\n"]]
-                }
-            },
-            handlers: {
-                check: ["Tools:Brackets:Check"]
-            }
-        },
         ruby: {
             commands: {
                 "Tools:Brackets:Check": {
